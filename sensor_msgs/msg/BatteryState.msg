@@ -5,6 +5,7 @@
 # all uppercase not mixed case.
 
 # Power supply status constants
+uint8 power_supply_status
 uint8 POWER_SUPPLY_STATUS_UNKNOWN = 0
 uint8 POWER_SUPPLY_STATUS_CHARGING = 1
 uint8 POWER_SUPPLY_STATUS_DISCHARGING = 2
@@ -12,6 +13,7 @@ uint8 POWER_SUPPLY_STATUS_NOT_CHARGING = 3
 uint8 POWER_SUPPLY_STATUS_FULL = 4
 
 # Power supply health constants
+unit8 power_supply_health
 uint8 POWER_SUPPLY_HEALTH_UNKNOWN = 0
 uint8 POWER_SUPPLY_HEALTH_GOOD = 1
 uint8 POWER_SUPPLY_HEALTH_OVERHEAT = 2
@@ -23,6 +25,7 @@ uint8 POWER_SUPPLY_HEALTH_WATCHDOG_TIMER_EXPIRE = 7
 uint8 POWER_SUPPLY_HEALTH_SAFETY_TIMER_EXPIRE = 8
 
 # Power supply technology (chemistry) constants
+uit8 power_supply_technology
 uint8 POWER_SUPPLY_TECHNOLOGY_UNKNOWN = 0
 uint8 POWER_SUPPLY_TECHNOLOGY_NIMH = 1
 uint8 POWER_SUPPLY_TECHNOLOGY_LION = 2
