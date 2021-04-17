@@ -1,5 +1,5 @@
 # See http://www.ros.org/wiki/rviz/DisplayTypes/Marker and http://www.ros.org/wiki/rviz/Tutorials/Markers%3A%20Basic%20Shapes for more information on using this message with rviz
-
+uint8 shape
 uint8 ARROW=0
 uint8 CUBE=1
 uint8 SPHERE=2
@@ -13,6 +13,7 @@ uint8 TEXT_VIEW_FACING=9
 uint8 MESH_RESOURCE=10
 uint8 TRIANGLE_LIST=11
 
+uint8 operation
 uint8 ADD=0
 uint8 MODIFY=0
 uint8 DELETE=2
