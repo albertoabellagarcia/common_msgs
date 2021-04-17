@@ -48,7 +48,8 @@ string command
 # FEEDBACK: send an InteractiveMarkerFeedback message with menu_entry_id set to this entry's id.
 # ROSRUN: execute "rosrun" with arguments given in the command field (above).
 # ROSLAUNCH: execute "roslaunch" with arguments given in the command field (above).
+uint8 command_type
 uint8 FEEDBACK=0
 uint8 ROSRUN=1
 uint8 ROSLAUNCH=2
-uint8 command_type
+
