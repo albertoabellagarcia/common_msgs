@@ -13,11 +13,11 @@ Header header           # timestamp in the header is the time the ranger
 
 # Radiation type enums
 # If you want a value added to this list, send an email to the ros-users list
+uint8 radiation_type    # the type of radiation used by the sensor
+                        # (sound, IR, etc) [enum]
 uint8 ULTRASOUND=0
 uint8 INFRARED=1
 
-uint8 radiation_type    # the type of radiation used by the sensor
-                        # (sound, IR, etc) [enum]
 
 float32 field_of_view   # the size of the arc that the distance reading is
                         # valid for [rad]
