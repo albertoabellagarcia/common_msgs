@@ -4,7 +4,7 @@
 # message if you are working with a laser scanner.
 
 # This message also can represent a fixed-distance (binary) ranger.  This
-# sensor will have min_range===max_range===distance of detection.
+# sensor will have min_range =  =  = max_range =  =  = distance of detection.
 # These sensors follow REP 117 and will output -Inf if the object is detected
 # and +Inf if the object is outside of the detection range.
 
@@ -15,8 +15,8 @@ Header header           # timestamp in the header is the time the ranger
 # If you want a value added to this list, send an email to the ros-users list
 uint8 radiation_type    # the type of radiation used by the sensor
                         # (sound, IR, etc) [enum]
-uint8 ULTRASOUND=0
-uint8 INFRARED=1
+uint8 ULTRASOUND = 0
+uint8 INFRARED = 1
 
 
 float32 field_of_view   # the size of the arc that the distance reading is
@@ -28,7 +28,7 @@ float32 field_of_view   # the size of the arc that the distance reading is
 
 float32 min_range       # minimum range value [m]
 float32 max_range       # maximum range value [m]
-                        # Fixed distance rangers require min_range==max_range
+                        # Fixed distance rangers require min_range =  = max_range
 
 float32 range           # range data [m]
                         # (Note: values < range_min or > range_max

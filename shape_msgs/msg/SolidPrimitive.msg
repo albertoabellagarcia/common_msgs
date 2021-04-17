@@ -3,10 +3,10 @@
 # The type of the shape
 uint8 type
 
-uint8 BOX=1
-uint8 SPHERE=2
-uint8 CYLINDER=3
-uint8 CONE=4
+uint8 BOX = 1
+uint8 SPHERE = 2
+uint8 CYLINDER = 3
+uint8 CONE = 4
 
 
 
@@ -17,14 +17,14 @@ float64[] dimensions
 
 # For the BOX type, the X, Y, and Z dimensions are the length of the corresponding
 # sides of the box.
-uint8 BOX_X=0
-uint8 BOX_Y=1
-uint8 BOX_Z=2
+uint8 BOX_X = 0
+uint8 BOX_Y = 1
+uint8 BOX_Z = 2
 
 
 # For the SPHERE type, only one component is used, and it gives the radius of
 # the sphere.
-uint8 SPHERE_RADIUS=0
+uint8 SPHERE_RADIUS = 0
 
 
 # For the CYLINDER and CONE types, the center line is oriented along
@@ -35,8 +35,8 @@ uint8 SPHERE_RADIUS=0
 # primitives are defined to be circular. The tip of the cone is
 # pointing up, along +Z axis.
 
-uint8 CYLINDER_HEIGHT=0
-uint8 CYLINDER_RADIUS=1
+uint8 CYLINDER_HEIGHT = 0
+uint8 CYLINDER_RADIUS = 1
 
-uint8 CONE_HEIGHT=0
-uint8 CONE_RADIUS=1
+uint8 CONE_HEIGHT = 0
+uint8 CONE_RADIUS = 1

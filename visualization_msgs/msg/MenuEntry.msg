@@ -5,23 +5,23 @@
 # menu/submenu/subsubmenu/etc tree, though they are stored in a flat
 # array.  The tree structure is represented by giving each menu entry
 # an ID number and a "parent_id" field.  Top-level entries are the
-# ones with parent_id = 0.  Menu entries are ordered within their
+# ones with parent_id  =  0.  Menu entries are ordered within their
 # level the same way they are ordered in the containing array.  Parent
 # entries must appear before their children.
 
 # Example:
-# - id = 3
-#   parent_id = 0
-#   title = "fun"
-# - id = 2
-#   parent_id = 0
-#   title = "robot"
-# - id = 4
-#   parent_id = 2
-#   title = "pr2"
-# - id = 5
-#   parent_id = 2
-#   title = "turtle"
+# - id  =  3
+#   parent_id  =  0
+#   title  =  "fun"
+# - id  =  2
+#   parent_id  =  0
+#   title  =  "robot"
+# - id  =  4
+#   parent_id  =  2
+#   title  =  "pr2"
+# - id  =  5
+#   parent_id  =  2
+#   title  =  "turtle"
 #
 # Gives a menu tree like this:
 #  - fun
@@ -49,7 +49,7 @@ string command
 # ROSRUN: execute "rosrun" with arguments given in the command field (above).
 # ROSLAUNCH: execute "roslaunch" with arguments given in the command field (above).
 uint8 command_type
-uint8 FEEDBACK=0
-uint8 ROSRUN=1
-uint8 ROSLAUNCH=2
+uint8 FEEDBACK = 0
+uint8 ROSRUN = 1
+uint8 ROSLAUNCH = 2
 

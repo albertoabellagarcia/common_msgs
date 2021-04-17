@@ -16,7 +16,7 @@ string name
 # Short description (< 40 characters).
 string description
 
-# Scale to be used for default controls (default=1).
+# Scale to be used for default controls (default = 1).
 float32 scale
 
 # All menu and submenu entries associated with this marker.
